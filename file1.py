@@ -1,6 +1,6 @@
 def divide_numbers(a, b):
     try:
-        return a / b  # Exception handling added
+        return a / b  
     except ZeroDivisionError:
         return "Error: Division by zero"
 
