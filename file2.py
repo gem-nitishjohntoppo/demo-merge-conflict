@@ -1,5 +1,7 @@
 def print_numbers():
-    for i in range(5):
+    i = 0
+    while i < 5:
         print("Number:", i)
+        i += 1
 
 print_numbers()
