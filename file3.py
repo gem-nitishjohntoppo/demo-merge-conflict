@@ -10,5 +10,5 @@ class Person:
     def name(self, name):
         self._name = name
 
-person = Person("Alice")
+person = Person("Bob")
 print("Name:", person.name)
