@@ -2,13 +2,11 @@ class Person:
     def __init__(self, name):
         self._name = name
     
-    @property
-    def name(self):
+    def get_name(self):
         return self._name
     
-    @name.setter
-    def name(self, name):
+    def set_name(self, name):
         self._name = name
 
 person = Person("Alice")
-print("Name:", person.name)
+print("Name:", person.get_name())
